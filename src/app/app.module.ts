@@ -3,14 +3,32 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
+import { CarouselModule } from 'ngx-bootstrap/carousel';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+
+import { CarouselComponent } from './carousel/carousel.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import { PortfolioComponent } from './portfolio/portfolio.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CarouselComponent,
+    NavbarComponent,
+    PortfolioComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BsDropdownModule.forRoot(),
+    CarouselModule.forRoot(),
+    BrowserAnimationsModule,
+    FontAwesomeModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
