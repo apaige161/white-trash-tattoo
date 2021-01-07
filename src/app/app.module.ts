@@ -13,6 +13,7 @@ import { CarouselComponent } from './carousel/carousel.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { ContactComponent } from './contact/contact.component';
+import { LogoComponent } from './logo/logo.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ContactComponent } from './contact/contact.component';
     CarouselComponent,
     NavbarComponent,
     PortfolioComponent,
-    ContactComponent
+    ContactComponent,
+    LogoComponent
   ],
   imports: [
     BrowserModule,
