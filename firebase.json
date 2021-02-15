@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "site": "white-trash-tattoos",
+    "public": "dist/white-trash-client",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

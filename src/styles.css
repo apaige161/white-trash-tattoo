@@ -1,5 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+
+* {
+    box-sizing: border-box;
+}
+
 body {
-    background-color: #262626;
+    background-color: #000;
     color: white;
 }
+
+.navbar{
+    width: 100%;
+}
+
+/**************** expand the main content to 90% in mobile version ***********************/
